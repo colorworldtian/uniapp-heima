@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/member/member",
+    "pages/cart/cart",
+    "pages/news/news",
+    "pages/goods/goods",
+    "pages/contact/contact",
+    "pages/pics/pics",
+    "pages/detail/detail",
+    "pages/goodsDetail/goodsDetail"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "黑马商城",
+    "navigationBarBackgroundColor": "#b50e47",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#b50e47",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/images/index-no.png",
+        "selectedIconPath": "static/images/index-yes.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "iconPath": "static/images/zixun-no.png",
+        "selectedIconPath": "static/images/zixun-yes.png",
+        "text": "资讯"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "iconPath": "static/images/cart-no.png",
+        "selectedIconPath": "static/images/cart-yes.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/member/member",
+        "iconPath": "static/images/people-no.png",
+        "selectedIconPath": "static/images/people-yes.png",
+        "text": "会员"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
